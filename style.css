@@ -1,0 +1,140 @@
+
+html{
+    cursor: url(img/cursor_linez.png), auto;
+}
+
+@font-face{
+  font-family: "Minipax";
+  src: url("webfonts/Minipax-Regular.woff");
+}
+
+
+.message{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 23px;
+  margin-top: 30px;
+  text-shadow:
+      0 0 4px #555656,
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 13px #fff,
+      0 0 15px #fff;
+}
+
+/*chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (min-resolution:.001dpcm) {
+.message{
+  font-family: 'NanumMyeongjoBold';
+  letter-spacing:2.1px;
+  text-align: center;
+  font-size: 28px;
+  padding: 23px;
+  margin-top: 30px;
+  text-shadow:
+      0 0 4px #555656,
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 13px #fff,
+      0 0 15px #fff;}
+}
+
+
+.message_en{
+  font-family: "Minipax";
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow:
+      0 0 4px #555656,
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 13px #fff,
+      0 0 15px #fff;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  position: fixed;
+  text-align: right;
+  margin-right: 30px;
+  bottom: 40px;
+  right: 20px;
+  font-size: 28px;
+  text-shadow:
+      0 0 4px #555656,
+      0 0 7px #555656,
+      0 0 10px #fff,
+      0 0 13px #fff,
+      0 0 15px #fff;
+}
+
+body{
+  background-image: url(bg-gradation2.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+@media all and (max-width:1280px){
+  body{
+    background-image: url(bg1240.jpg);
+    background-size: cover;
+  }
+}
+
+@media all and (max-width:1180px){
+  body{
+    background-image: url(bg1240.jpg);
+    background-size: cover;
+  }
+  img,div{
+    display: none;
+  }
+}
+
+@media all and (max-width:960px){
+  img,div{
+    display: none;
+  }
+}
+
+@media all and (max-width:840px){
+  body{
+    background-image: url(bg1240.jpg);
+    background-size: cover;
+  }
+  img,div{
+    display: none;
+  }
+}
+
+@media all and (max-width:768px){
+  body{
+    background-image: url(bgx.jpg);
+    background-size: cover;
+  }
+  img,div{
+    display: none;
+  }
+}
+
+@media all and (max-width:640px){
+  body{
+    background-image: url(bgx.jpg);
+    background-size: cover;
+  }
+  img,div{
+    display: none;
+  }
+}
